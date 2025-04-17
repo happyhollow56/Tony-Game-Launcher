@@ -41,14 +41,15 @@ def open_gw2EFF(effURL):
 frame1 = tk.Frame(root)
 frame1.grid(row=0, column=0, padx=10, pady=10)
 
-# Guild wars launch button
+# Guild wars 2 launch button
 gw2_btn = tk.Button(frame1, text="Open Guild Wars 2", command=lambda: open_gw2(GW2))
 gw2_btn.grid(row=0, column=0, pady=10)
 
-# Guild wars wiki Launch button
+# Guild wars 2 wiki launch button
 gw2Wiki_btn = tk.Button(frame1, text="Launch Wiki", width=20 , command= lambda: open_gw2Wiki(GW2WIKI))
 gw2Wiki_btn.grid(row=0, column=1, padx=10 , pady=10, sticky="e")
 
+# Guild wars 2 efficiency launch button
 gw2EFF_btn = tk.Button(frame1, text="Launch GW2 Efficiency", width=20 , command= lambda: open_gw2EFF(GW2EFF))
 gw2EFF_btn.grid(row=1, column=1, padx=10 , pady=10, sticky="e")
 
