@@ -23,8 +23,8 @@ frame1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
 frame1.columnconfigure(0, weight=1)
 frame1.rowconfigure(1, weight=1)
 
-entry1_btn=tk.Button(root, text="Open Guild Wars 2", command=ope_Gw2)
-entry1_btn.grid(row=0, column=1)
+button_1=tk.Button(root, text="Open Guild Wars 2",)
+
 
 #frame 2
 
