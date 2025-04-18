@@ -15,8 +15,7 @@ SATIS = r"C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame
 
 def rootcfg() -> tk.Tk:
     root = tk.Tk()
-    root.title('config Launcher')
-   
+    root.title('Tony Launcher')
     root.configure(bg='black')
     root.columnconfigure(0, weight=1)
     root.rowconfigure(0, weight=1)
