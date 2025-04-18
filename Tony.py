@@ -12,6 +12,9 @@ GW2EFF = "https://gw2efficiency.com"
 RL = r"C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win64\RocketLeague.exe"
 BMOD = r"C:\Program Files\BakkesMod\BakkesMod.exe"
 SATIS = r"C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGameSteam.exe"
+SATISPRINT = "https://satisfactory-calculator.com/en/blueprints"
+SATISMAP = 'https://satisfactory-calculator.com/en/interactive-map'
+
 
 def rootcfg() -> tk.Tk:
     root = tk.Tk()
@@ -92,9 +95,8 @@ def main() -> None:
 
     satis=assemble(root, "orange", 2, ("orange", "White"), "Satifactory")
     addButton(satis, "Satisfactory", SATIS, root, ("black", "orange"), open_app)
-    
-    
-    
+    addButton(satis,"Statisfactory Blueprints", SATISPRINT, root, ("black", "orange"),open_url,1, 1, 10, 10)
+    addButton(satis,"Statisfactory Interactive Map", SATISMAP, root, ("black", "orange"),open_url,2, 1, 10, 10)
     
     
     root.mainloop()
