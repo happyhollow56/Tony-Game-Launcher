@@ -1,7 +1,7 @@
 # M08_Final Project
 # 2025-04-18 (JAC)
-# psuedo
-# 
+# psuedo code making a  modular frame that can add games as needed.
+# NO AI
 ###
 
 
